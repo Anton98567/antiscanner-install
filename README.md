@@ -6,7 +6,8 @@
 bash <(curl -Ls https://raw.githubusercontent.com/Anton98567/antiscanner-install/main/antiscanner-install.sh)
 ```
 
-Готовая копия также лежит на https://checkvpn.net/files/antiscanner-install.sh
+Установщик `AntiScanner.sh` скрипт качает напрямую из официального репозитория [sngvy/AntiScanner](https://github.com/sngvy/AntiScanner) (`refs/heads/main/AntiScanner.sh`) — подменить можно через `--url`.
+
 
 ## Зачем
 

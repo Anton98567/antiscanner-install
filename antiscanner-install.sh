@@ -2,9 +2,12 @@
 # Установка AntiScanner (sngvy/AntiScanner) НА САМОМ VPS — без SSH, без логина/пароля.
 # Скрипт сам определяет IP сервера и запускает AntiScanner.sh локально, отвечая на диалоги автоматически.
 #
-#   bash <(curl -Ls https://checkvpn.net/files/antiscanner-install.sh)
-#   bash <(curl -Ls https://checkvpn.net/files/antiscanner-install.sh) -m ufw
-#   bash <(curl -Ls https://checkvpn.net/files/antiscanner-install.sh) -m iptables
+#   bash <(curl -Ls https://raw.githubusercontent.com/Anton98567/antiscanner-install/main/antiscanner-install.sh)
+#   bash <(curl -Ls https://raw.githubusercontent.com/Anton98567/antiscanner-install/main/antiscanner-install.sh) -m ufw
+#   bash <(curl -Ls https://raw.githubusercontent.com/Anton98567/antiscanner-install/main/antiscanner-install.sh) -m iptables
+#
+# Установщик AntiScanner.sh качается напрямую из репозитория sngvy/AntiScanner
+#   (см. SCRIPT_URL), можно подменить своим зеркалом через --url.
 #
 # Ключи:
 #   -m|--method ufw|iptables   метод защиты (по умолчанию iptables)
